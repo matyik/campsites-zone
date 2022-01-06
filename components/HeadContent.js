@@ -87,6 +87,7 @@ const HeadContent = () => {
       <h1 className='text-4xl font-semibold text-midnight-blue mt-12'>
         Campsites.zone
       </h1>
+      <p className='text-midnight-blue'>A simple and fast campsite search</p>
       <form onSubmit={(e) => searchCampsites(e)}>
         <div className='relative mt-2 flex justify-between w-[min(90vw,700px)] h-10 rounded-sm bg-cultured overflow-hidden shadow-sm focus:shadow-md shadow-space-cadet'>
           <span
